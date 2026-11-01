@@ -138,3 +138,37 @@ th {
 tr:nth-child(odd) {
    background-color: #b7b7e1;
 }
+
+fieldset, input {
+  margin: 2%;
+}
+
+legend {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+label{
+  display: block;
+  padding-top: 3%;
+}
+
+form #submit {
+  margin: 0 auto;
+  display: block;
+  padding: 3%;
+  background-color: #b7b7e1;
+  font-size: 1em;
+}
+
+.form-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.btn {
+  grid-column: 1 / span 2;
+}
+
+
