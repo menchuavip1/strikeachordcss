@@ -28,6 +28,53 @@
         <iframe src="https://www.google.com/maps?q=Chicago,+IL&output=embed" class="map"
         allowfullscreen="" loading="lazy"></iframe>
       </div>
+      <div id="form">
+        <h2>Complete the form below and one of our staff members will contact you.</h2>
+        <!-- Form fields will be added here -->
+        <form class="form-grid">
+          <fieldset>
+            <legend>Customer Information</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone">
+          </fieldset>
+          
+          <fieldset>
+            <legend>Musical Interests</legend>
+            <p>I'm interested in:</p>
+
+            <label for="guitarless">
+              <input type="checkbox" name="interest" id="guitarless" value="Guitar Lessons">
+              Guitar Lessons 
+            </label> 
+
+            <label for="pianoless">
+              <input type="checkbox" name="interest" id="pianoless" value="Piano Lessons">
+              Piano Lessons
+            </label>
+
+            <label for="violinless">
+              <input type="checkbox" name="interest" id="violinless" value="Violin Lessons">
+              Violin Lessons
+            </label>
+
+            <label for="rent">
+              <input type="checkbox" name="interest" id="rent" value="Rentals Equipment">
+              Rentals Equipment
+            </label>
+          </fieldset>
+          <input type="submit" class="btn" id="submit">
+        </form>
+      </div>
     </main>
     <footer>
       <a href="mailto:lesson@strikeachord.com">lesson@strikeachord.com</a>
